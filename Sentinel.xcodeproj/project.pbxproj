@@ -1,0 +1,1449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC882A72BF8152700124DB2 /* SignInWithGoogleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC882A62BF8152700124DB2 /* SignInWithGoogleButtonStyle.swift */; };
+		FA031CDF2AD22092001D7432 /* MessageBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA031CDE2AD22092001D7432 /* MessageBarView.swift */; };
+		FA0399D32BBCAF3A00167DB9 /* BiomarkerHorizontalChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0399D22BBCAF3A00167DB9 /* BiomarkerHorizontalChartView.swift */; };
+		FA0399D52BBDC94600167DB9 /* ReferenceRangeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0399D42BBDC94600167DB9 /* ReferenceRangeTextView.swift */; };
+		FA0AB4BA2BA0AF8700332C42 /* OrderLabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB4B92BA0AF8700332C42 /* OrderLabsView.swift */; };
+		FA0AB4BC2BA0BCB900332C42 /* LabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB4BB2BA0BCB900332C42 /* LabTest.swift */; };
+		FA0AB4BE2BA0C6EB00332C42 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB4BD2BA0C6EB00332C42 /* SectionHeaderView.swift */; };
+		FA0EE9E32BBE1C2A00308692 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE9E22BBE1C2A00308692 /* CheckboxView.swift */; };
+		FA0EE9E52BBE254B00308692 /* WelcomeAndConsentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE9E42BBE254B00308692 /* WelcomeAndConsentsView.swift */; };
+		FA0EE9E72BBEEB6E00308692 /* CollectHealthGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE9E62BBEEB6E00308692 /* CollectHealthGoalsView.swift */; };
+		FA1BB4F42B16618F00225CCB /* BiomarkersSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BB4F32B16618F00225CCB /* BiomarkersSectionView.swift */; };
+		FA1BB4F62B16642300225CCB /* FitnessSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BB4F52B16642300225CCB /* FitnessSectionView.swift */; };
+		FA1BB4F82B1665BA00225CCB /* SleepSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BB4F72B1665BA00225CCB /* SleepSectionView.swift */; };
+		FA1FC8BD2B7ECB5900234180 /* BodyStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8BC2B7ECB5900234180 /* BodyStats.swift */; };
+		FA1FC8BF2B7FD75600234180 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8BE2B7FD75600234180 /* Measurements.swift */; };
+		FA1FC8C12B80017300234180 /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8C02B80017300234180 /* HealthStat.swift */; };
+		FA1FC8C32B83CA9D00234180 /* ProceduresSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8C22B83CA9D00234180 /* ProceduresSectionView.swift */; };
+		FA1FC8C52B83CBB100234180 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8C42B83CBB100234180 /* Procedure.swift */; };
+		FA1FC8C72B83CBEB00234180 /* ProcedureCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8C62B83CBEB00234180 /* ProcedureCellView.swift */; };
+		FA1FC8C92B83CC0300234180 /* AllProceduresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8C82B83CC0300234180 /* AllProceduresListView.swift */; };
+		FA1FC8CC2B83CC8100234180 /* ProcedureDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8CB2B83CC8100234180 /* ProcedureDetailsView.swift */; };
+		FA1FC8CE2B83CD1C00234180 /* ProcedureDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8CD2B83CD1C00234180 /* ProcedureDetailsViewModel.swift */; };
+		FA1FC8D02B8457CB00234180 /* SyncChangesFullScreenCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FC8CF2B8457CB00234180 /* SyncChangesFullScreenCoverView.swift */; };
+		FA23A21F2AFD48EB003626AB /* HealthStatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23A21E2AFD48EB003626AB /* HealthStatCardView.swift */; };
+		FA23A2212AFD5F61003626AB /* HomeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23A2202AFD5F61003626AB /* HomeSectionView.swift */; };
+		FA23A2232AFD7495003626AB /* BiomarkerCategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23A2222AFD7495003626AB /* BiomarkerCategoryCardView.swift */; };
+		FA246F332AD108E500C9E9B3 /* LoadingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA246F322AD108E500C9E9B3 /* LoadingOverlayView.swift */; };
+		FA2F97E32B7C6638001D2FF2 /* AppleHealthConnectionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F97E22B7C6638001D2FF2 /* AppleHealthConnectionDetailsView.swift */; };
+		FA445A442B91096100C0F86C /* ConnectAppleHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445A432B91096100C0F86C /* ConnectAppleHealthView.swift */; };
+		FA445A472B91201800C0F86C /* DeviceOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445A462B91201800C0F86C /* DeviceOnboardingView.swift */; };
+		FA445A4B2B91218600C0F86C /* DeviceOnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445A4A2B91218600C0F86C /* DeviceOnboardingViewModel.swift */; };
+		FA445A4D2B912FF200C0F86C /* EnableDeviceNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445A4C2B912FF200C0F86C /* EnableDeviceNotificationsView.swift */; };
+		FA5485612AF9CB58003AFC81 /* SleepStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485602AF9CB58003AFC81 /* SleepStats.swift */; };
+		FA5485632AF9CB6F003AFC81 /* FitnessStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485622AF9CB6F003AFC81 /* FitnessStats.swift */; };
+		FA5485652AF9CC43003AFC81 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485642AF9CC43003AFC81 /* Message.swift */; };
+		FA5485672AF9CC6E003AFC81 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485662AF9CC6E003AFC81 /* Conversation.swift */; };
+		FA5485692AF9CCC5003AFC81 /* BiomarkerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485682AF9CCC5003AFC81 /* BiomarkerCategory.swift */; };
+		FA54856B2AF9CCDC003AFC81 /* BiomarkerSubcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54856A2AF9CCDC003AFC81 /* BiomarkerSubcategory.swift */; };
+		FA54856D2AF9CCF0003AFC81 /* Biomarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54856C2AF9CCF0003AFC81 /* Biomarker.swift */; };
+		FA5485712AF9CD63003AFC81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485702AF9CD63003AFC81 /* User.swift */; };
+		FA5485732AF9CD9A003AFC81 /* ServerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5485722AF9CD9A003AFC81 /* ServerSession.swift */; };
+		FA54E86D2B28EA82000C6FD9 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = FA54E86C2B28EA82000C6FD9 /* AlertToast */; };
+		FA54E86F2B2B5A48000C6FD9 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54E86E2B2B5A48000C6FD9 /* Requests.swift */; };
+		FA56355E2ACDBEE500E02C2C /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56355D2ACDBEE500E02C2C /* AppButton.swift */; };
+		FA6072592ADE0D9700E6B61A /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6072582ADE0D9700E6B61A /* OverviewView.swift */; };
+		FA60725F2ADE328A00E6B61A /* ClinicalRecordsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60725E2ADE328900E6B61A /* ClinicalRecordsHelpers.swift */; };
+		FA63F56A2B24D04700E7D93A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63F5692B24D04700E7D93A /* AccountView.swift */; };
+		FA63F56C2B25092A00E7D93A /* EmptyChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63F56B2B25092A00E7D93A /* EmptyChatView.swift */; };
+		FA680F692ACF3A2300EF88FB /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA680F682ACF3A2300EF88FB /* SessionManager.swift */; };
+		FA6E3EFD2BAA5D32003CEEC1 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E3EFC2BAA5D32003CEEC1 /* SectionFooterView.swift */; };
+		FA7D1C932B1514490006F2AC /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D1C922B1514490006F2AC /* RootViewModel.swift */; };
+		FA7D1C952B1524E70006F2AC /* NotificationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D1C942B1524E70006F2AC /* NotificationAlert.swift */; };
+		FA7D1C972B15335E0006F2AC /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D1C962B15335E0006F2AC /* AlertView.swift */; };
+		FA7D1C992B154ED90006F2AC /* SyncingDataAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D1C982B154ED90006F2AC /* SyncingDataAlertView.swift */; };
+		FA7E26142ACF4F8F00E6C0B7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E26132ACF4F8F00E6C0B7 /* APIService.swift */; };
+		FA8B8D6D2AE6FFB900FF636F /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B8D6C2AE6FFB900FF636F /* ConversationsViewModel.swift */; };
+		FA8B8D6F2AE702A700FF636F /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B8D6E2AE702A700FF636F /* ConversationsView.swift */; };
+		FA8B8D712AE8344900FF636F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B8D702AE8344900FF636F /* HomeViewModel.swift */; };
+		FA8CBDD82C0657CA00479261 /* ModelsBuild in Frameworks */ = {isa = PBXBuildFile; productRef = FA8CBDD72C0657CA00479261 /* ModelsBuild */; };
+		FA8CBDDA2C0657CA00479261 /* ModelsDSTU2 in Frameworks */ = {isa = PBXBuildFile; productRef = FA8CBDD92C0657CA00479261 /* ModelsDSTU2 */; };
+		FA8CBDDC2C0657CA00479261 /* ModelsR4 in Frameworks */ = {isa = PBXBuildFile; productRef = FA8CBDDB2C0657CA00479261 /* ModelsR4 */; };
+		FA8CBDDE2C0657CA00479261 /* ModelsR4B in Frameworks */ = {isa = PBXBuildFile; productRef = FA8CBDDD2C0657CA00479261 /* ModelsR4B */; };
+		FA8CBDE02C0657CA00479261 /* ModelsR5 in Frameworks */ = {isa = PBXBuildFile; productRef = FA8CBDDF2C0657CA00479261 /* ModelsR5 */; };
+		FA8D8A322AFD7B17008AC421 /* BiomarkerCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D8A312AFD7B17008AC421 /* BiomarkerCategoryView.swift */; };
+		FA8D8A362AFD7FE4008AC421 /* BiomarkerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D8A352AFD7FE4008AC421 /* BiomarkerHeaderView.swift */; };
+		FA8D8A382AFED816008AC421 /* ChatSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D8A372AFED816008AC421 /* ChatSuggestions.swift */; };
+		FA8D8A3A2AFEE1BD008AC421 /* ChatSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D8A392AFEE1BD008AC421 /* ChatSuggestionsView.swift */; };
+		FA981B9E2B93D5EB00B24842 /* SentinelOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA981B9D2B93D5EB00B24842 /* SentinelOnboardingView.swift */; };
+		FA981BA22B950BC000B24842 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA981BA12B950BC000B24842 /* AppLogger.swift */; };
+		FA981BAC2B97A7BD00B24842 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA981BAB2B97A7BD00B24842 /* Keychain.swift */; };
+		FA9951E92B9BCAE000063EFB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9951E82B9BCAE000063EFB /* Launch Screen.storyboard */; };
+		FA9CAB462ACC9FFE00B599D9 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA9CAB452ACC9FFE00B599D9 /* MarkdownUI */; };
+		FA9CAB852ACD092A00B599D9 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAB842ACD092A00B599D9 /* AppStateManager.swift */; };
+		FA9CAB872ACD097E00B599D9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAB862ACD097E00B599D9 /* LoginView.swift */; };
+		FA9CAB892ACD099A00B599D9 /* NewUserOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAB882ACD099A00B599D9 /* NewUserOnboardingView.swift */; };
+		FA9CAB8B2ACD09B100B599D9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAB8A2ACD09B100B599D9 /* RootView.swift */; };
+		FA9DC2A32AD87A0A005A4538 /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DC2A22AD87A0A005A4538 /* Dates.swift */; };
+		FA9DC2A52AD88E17005A4538 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DC2A42AD88E17005A4538 /* Numbers.swift */; };
+		FAAA05ED2BCDDBE600AB4D8B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FAAA05EC2BCDDBE600AB4D8B /* PrivacyInfo.xcprivacy */; };
+		FAAA9C5B2B20146900674E69 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA9C5A2B20146900674E69 /* EmptyStateView.swift */; };
+		FAAA9C5D2B202C3D00674E69 /* AlertViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA9C5C2B202C3D00674E69 /* AlertViewContent.swift */; };
+		FAAA9C612B20FF2300674E69 /* OverviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA9C602B20FF2300674E69 /* OverviewListView.swift */; };
+		FAB77D302B051C5300DB7802 /* ConversationMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB77D2F2B051C5300DB7802 /* ConversationMessagesView.swift */; };
+		FAB8EAAD2B042CD700D7205B /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EAAC2B042CD700D7205B /* OnboardingViewModel.swift */; };
+		FAB8EAAF2B0430E700D7205B /* ConnectHealthDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EAAE2B0430E700D7205B /* ConnectHealthDataView.swift */; };
+		FAB8EAB12B04530600D7205B /* EnableNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EAB02B04530600D7205B /* EnableNotificationsView.swift */; };
+		FAB8EAB32B0454A200D7205B /* SentinelIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EAB22B0454A200D7205B /* SentinelIntroView.swift */; };
+		FAB938CA2B50543D0043E4F1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938C92B50543D0043E4F1 /* Data.swift */; };
+		FAB938CC2B50CCA50043E4F1 /* ConditionsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938CB2B50CCA50043E4F1 /* ConditionsSectionView.swift */; };
+		FAB938CE2B50CE580043E4F1 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938CD2B50CE580043E4F1 /* Condition.swift */; };
+		FAB938D02B50CE600043E4F1 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938CF2B50CE600043E4F1 /* Medication.swift */; };
+		FAB938D22B50D0930043E4F1 /* MedicationsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938D12B50D0930043E4F1 /* MedicationsSectionView.swift */; };
+		FAB938D42B56F2350043E4F1 /* MedicationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938D32B56F2350043E4F1 /* MedicationDetailsView.swift */; };
+		FAB938D72B56F3070043E4F1 /* ConditionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938D62B56F3070043E4F1 /* ConditionDetailsView.swift */; };
+		FAB938DA2B56F4880043E4F1 /* MedicationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938D92B56F4880043E4F1 /* MedicationDetailsViewModel.swift */; };
+		FAB938DC2B56F4900043E4F1 /* ConditionDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938DB2B56F4900043E4F1 /* ConditionDetailsViewModel.swift */; };
+		FAB938DE2B5716690043E4F1 /* ConversationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938DD2B5716690043E4F1 /* ConversationCellView.swift */; };
+		FAB938E02B571DB20043E4F1 /* NavigationLinkIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB938DF2B571DB20043E4F1 /* NavigationLinkIconView.swift */; };
+		FABA1B3B2AE31A80005D7869 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA1B3A2AE31A80005D7869 /* NotificationService.swift */; };
+		FABFF3582BA0DAA8004DA71C /* LabTestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3572BA0DAA8004DA71C /* LabTestCellView.swift */; };
+		FABFF35A2BA0DAB5004DA71C /* LabTestDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3592BA0DAB5004DA71C /* LabTestDetailsView.swift */; };
+		FABFF35F2BA10338004DA71C /* OrderLabTestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF35E2BA10338004DA71C /* OrderLabTestsViewModel.swift */; };
+		FABFF3612BA26619004DA71C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3602BA26619004DA71C /* WebView.swift */; };
+		FABFF3632BA2A3A7004DA71C /* OrderConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3622BA2A3A7004DA71C /* OrderConfirmationView.swift */; };
+		FABFF3652BA34D3F004DA71C /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3642BA34D3F004DA71C /* AddressView.swift */; };
+		FABFF3672BA34DB7004DA71C /* AddressFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3662BA34DB7004DA71C /* AddressFormView.swift */; };
+		FABFF3692BA34DE9004DA71C /* AddressFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3682BA34DE9004DA71C /* AddressFormViewModel.swift */; };
+		FABFF36B2BA35408004DA71C /* USStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF36A2BA35408004DA71C /* USStates.swift */; };
+		FABFF36D2BA36BFC004DA71C /* CollectAdditionalLabOrderInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF36C2BA36BFC004DA71C /* CollectAdditionalLabOrderInformationView.swift */; };
+		FABFF36F2BA36D1E004DA71C /* LabOrderRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF36E2BA36D1E004DA71C /* LabOrderRequirements.swift */; };
+		FABFF3732BA38D72004DA71C /* PhoneNumberFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3722BA38D72004DA71C /* PhoneNumberFormView.swift */; };
+		FABFF3752BA38DD0004DA71C /* PhoneNumberFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3742BA38DD0004DA71C /* PhoneNumberFormViewModel.swift */; };
+		FABFF3772BA3A72F004DA71C /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3762BA3A72F004DA71C /* PhoneNumberView.swift */; };
+		FAD6D1912AFC1D3400B30179 /* BiomarkerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6D1902AFC1D3400B30179 /* BiomarkerCellView.swift */; };
+		FADE13532B717B4F0034996E /* Immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13522B717B4F0034996E /* Immunization.swift */; };
+		FADE13552B717B540034996E /* Allergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13542B717B540034996E /* Allergy.swift */; };
+		FADE13572B7181730034996E /* ImmunizationsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13562B7181730034996E /* ImmunizationsSectionView.swift */; };
+		FADE13592B71817F0034996E /* AllergiesSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13582B71817F0034996E /* AllergiesSectionView.swift */; };
+		FADE135B2B71818B0034996E /* ImmunizationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE135A2B71818B0034996E /* ImmunizationDetailsView.swift */; };
+		FADE135D2B7181990034996E /* AllergyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE135C2B7181990034996E /* AllergyDetailsView.swift */; };
+		FADE13612B728AC80034996E /* AllergyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13602B728AC80034996E /* AllergyDetailsViewModel.swift */; };
+		FADE13632B728B770034996E /* ImmunizationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13622B728B770034996E /* ImmunizationDetailsViewModel.swift */; };
+		FADE13652B728D890034996E /* BodySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13642B728D890034996E /* BodySectionView.swift */; };
+		FADE13692B72AFD90034996E /* AllConditionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13682B72AFD90034996E /* AllConditionsListView.swift */; };
+		FADE136B2B72B11E0034996E /* AllImmunizationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE136A2B72B11E0034996E /* AllImmunizationsListView.swift */; };
+		FADE136D2B72B3400034996E /* AllMedicationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE136C2B72B3400034996E /* AllMedicationsListView.swift */; };
+		FADE136F2B72B39D0034996E /* AllAllergiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE136E2B72B39D0034996E /* AllAllergiesListView.swift */; };
+		FADE13712B72BAC00034996E /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13702B72BAC00034996E /* TabsView.swift */; };
+		FADE13732B72C4F30034996E /* TabsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13722B72C4F30034996E /* TabsViewModel.swift */; };
+		FADE13752B73F08B0034996E /* ConditionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13742B73F08B0034996E /* ConditionCellView.swift */; };
+		FADE13772B73F3EE0034996E /* MedicationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13762B73F3EE0034996E /* MedicationCellView.swift */; };
+		FADE13792B73F6A30034996E /* ImmunizationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13782B73F6A30034996E /* ImmunizationCellView.swift */; };
+		FADE137B2B73F8210034996E /* AllergyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE137A2B73F8210034996E /* AllergyCellView.swift */; };
+		FADE137D2B755B2C0034996E /* CollectMemberInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE137C2B755B2C0034996E /* CollectMemberInfoView.swift */; };
+		FADE13832B7589580034996E /* HealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13822B7589580034996E /* HealthProfile.swift */; };
+		FADE13892B76D58D0034996E /* VerifyRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13882B76D58D0034996E /* VerifyRecordsView.swift */; };
+		FADE138B2B76ECE50034996E /* VerifyRecordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE138A2B76ECE50034996E /* VerifyRecordsViewModel.swift */; };
+		FADE138D2B77F4DB0034996E /* HealthProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE138C2B77F4DB0034996E /* HealthProfileView.swift */; };
+		FADE138F2B77F5920034996E /* HealthProfileFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE138E2B77F5920034996E /* HealthProfileFormView.swift */; };
+		FADE13912B77F8330034996E /* HealthProfileFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE13902B77F8330034996E /* HealthProfileFormViewModel.swift */; };
+		FAE641442B0BE3C700274CF7 /* AppLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE641432B0BE3C700274CF7 /* AppLaunchView.swift */; };
+		FAE641462B0E824A00274CF7 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE641452B0E824A00274CF7 /* NotificationsView.swift */; };
+		FAE641492B0F9B8D00274CF7 /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE641482B0F9B8D00274CF7 /* NotificationsViewModel.swift */; };
+		FAE6414B2B0F9C8500274CF7 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6414A2B0F9C8500274CF7 /* UserNotification.swift */; };
+		FAE6414D2B0FA7C700274CF7 /* NotificationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6414C2B0FA7C700274CF7 /* NotificationCellView.swift */; };
+		FAE9C1E12ACA806100AF5FE1 /* Serializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9C1E02ACA806100AF5FE1 /* Serializers.swift */; };
+		FAE9C1E32ACA809700AF5FE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9C1E22ACA809700AF5FE1 /* Constants.swift */; };
+		FAE9C1E52ACA80CB00AF5FE1 /* HealthKitHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9C1E42ACA80CB00AF5FE1 /* HealthKitHelpers.swift */; };
+		FAF8BFEF2B8CF7E900E891B4 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8BFEE2B8CF7E900E891B4 /* AccountViewModel.swift */; };
+		FAFAAE502BB605C600D6107B /* LabTestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE4F2BB605C600D6107B /* LabTestOrder.swift */; };
+		FAFAAE522BB60A4800D6107B /* LabTestOrdersSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE512BB60A4800D6107B /* LabTestOrdersSectionView.swift */; };
+		FAFAAE542BB6240E00D6107B /* LabTestOrderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE532BB6240E00D6107B /* LabTestOrderDetailsView.swift */; };
+		FAFAAE562BB7227900D6107B /* LabTestOrderResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE552BB7227900D6107B /* LabTestOrderResultsView.swift */; };
+		FAFAAE582BB7232000D6107B /* AllLabTestOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE572BB7232000D6107B /* AllLabTestOrdersView.swift */; };
+		FAFAAE5B2BB7256400D6107B /* LabTestOrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE5A2BB7256400D6107B /* LabTestOrderCellView.swift */; };
+		FAFAAE5D2BB7266C00D6107B /* LabTestOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE5C2BB7266C00D6107B /* LabTestOrdersViewModel.swift */; };
+		FAFAAE5F2BB8E86300D6107B /* LabResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE5E2BB8E86300D6107B /* LabResult.swift */; };
+		FAFAAE612BB9101000D6107B /* LabResultCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE602BB9101000D6107B /* LabResultCellView.swift */; };
+		FAFAAE652BBA724D00D6107B /* LabTestOrderResultChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE642BBA724D00D6107B /* LabTestOrderResultChartView.swift */; };
+		FAFAAE692BBB13F200D6107B /* LabTestOrderResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE682BBB13F200D6107B /* LabTestOrderResultsViewModel.swift */; };
+		FAFAAE6B2BBB4E0E00D6107B /* BiomarkerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAAE6A2BBB4E0E00D6107B /* BiomarkerTextView.swift */; };
+		FAFC5DB22B61955E006FE753 /* FileAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC5DB12B61955E006FE753 /* FileAttachmentView.swift */; };
+		FAFCD0DE2AC9DBDF00378211 /* SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0DD2AC9DBDF00378211 /* SentinelApp.swift */; };
+		FAFCD0E02AC9DBDF00378211 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0DF2AC9DBDF00378211 /* AccountListView.swift */; };
+		FAFCD0E22AC9DBE000378211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFCD0E12AC9DBE000378211 /* Assets.xcassets */; };
+		FAFCD0E52AC9DBE000378211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFCD0E42AC9DBE000378211 /* Preview Assets.xcassets */; };
+		FAFCD0F02ACA025900378211 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0EF2ACA025900378211 /* HealthKitService.swift */; };
+		FAFCD0F22ACA101400378211 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0F12ACA101400378211 /* ChatView.swift */; };
+		FAFCD0F62ACA2D9F00378211 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0F52ACA2D9F00378211 /* ChatViewModel.swift */; };
+		FAFCD0FA2ACA4F0400378211 /* ChatFunctionCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0F92ACA4F0400378211 /* ChatFunctionCallView.swift */; };
+		FAFCD0FC2ACA4F1C00378211 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD0FB2ACA4F1C00378211 /* ChatMessageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EC882A62BF8152700124DB2 /* SignInWithGoogleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleButtonStyle.swift; sourceTree = "<group>"; };
+		FA031CDE2AD22092001D7432 /* MessageBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBarView.swift; sourceTree = "<group>"; };
+		FA0399D22BBCAF3A00167DB9 /* BiomarkerHorizontalChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerHorizontalChartView.swift; sourceTree = "<group>"; };
+		FA0399D42BBDC94600167DB9 /* ReferenceRangeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceRangeTextView.swift; sourceTree = "<group>"; };
+		FA0AB4B92BA0AF8700332C42 /* OrderLabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLabsView.swift; sourceTree = "<group>"; };
+		FA0AB4BB2BA0BCB900332C42 /* LabTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTest.swift; sourceTree = "<group>"; };
+		FA0AB4BD2BA0C6EB00332C42 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		FA0EE9E22BBE1C2A00308692 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		FA0EE9E42BBE254B00308692 /* WelcomeAndConsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAndConsentsView.swift; sourceTree = "<group>"; };
+		FA0EE9E62BBEEB6E00308692 /* CollectHealthGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectHealthGoalsView.swift; sourceTree = "<group>"; };
+		FA1BB4F32B16618F00225CCB /* BiomarkersSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkersSectionView.swift; sourceTree = "<group>"; };
+		FA1BB4F52B16642300225CCB /* FitnessSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSectionView.swift; sourceTree = "<group>"; };
+		FA1BB4F72B1665BA00225CCB /* SleepSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSectionView.swift; sourceTree = "<group>"; };
+		FA1FC8BC2B7ECB5900234180 /* BodyStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStats.swift; sourceTree = "<group>"; };
+		FA1FC8BE2B7FD75600234180 /* Measurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		FA1FC8C02B80017300234180 /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
+		FA1FC8C22B83CA9D00234180 /* ProceduresSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresSectionView.swift; sourceTree = "<group>"; };
+		FA1FC8C42B83CBB100234180 /* Procedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
+		FA1FC8C62B83CBEB00234180 /* ProcedureCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureCellView.swift; sourceTree = "<group>"; };
+		FA1FC8C82B83CC0300234180 /* AllProceduresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProceduresListView.swift; sourceTree = "<group>"; };
+		FA1FC8CB2B83CC8100234180 /* ProcedureDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsView.swift; sourceTree = "<group>"; };
+		FA1FC8CD2B83CD1C00234180 /* ProcedureDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsViewModel.swift; sourceTree = "<group>"; };
+		FA1FC8CF2B8457CB00234180 /* SyncChangesFullScreenCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncChangesFullScreenCoverView.swift; sourceTree = "<group>"; };
+		FA23A21E2AFD48EB003626AB /* HealthStatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStatCardView.swift; sourceTree = "<group>"; };
+		FA23A2202AFD5F61003626AB /* HomeSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionView.swift; sourceTree = "<group>"; };
+		FA23A2222AFD7495003626AB /* BiomarkerCategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerCategoryCardView.swift; sourceTree = "<group>"; };
+		FA246F322AD108E500C9E9B3 /* LoadingOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlayView.swift; sourceTree = "<group>"; };
+		FA2F97E22B7C6638001D2FF2 /* AppleHealthConnectionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthConnectionDetailsView.swift; sourceTree = "<group>"; };
+		FA445A432B91096100C0F86C /* ConnectAppleHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAppleHealthView.swift; sourceTree = "<group>"; };
+		FA445A462B91201800C0F86C /* DeviceOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOnboardingView.swift; sourceTree = "<group>"; };
+		FA445A4A2B91218600C0F86C /* DeviceOnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOnboardingViewModel.swift; sourceTree = "<group>"; };
+		FA445A4C2B912FF200C0F86C /* EnableDeviceNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableDeviceNotificationsView.swift; sourceTree = "<group>"; };
+		FA5485602AF9CB58003AFC81 /* SleepStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStats.swift; sourceTree = "<group>"; };
+		FA5485622AF9CB6F003AFC81 /* FitnessStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStats.swift; sourceTree = "<group>"; };
+		FA5485642AF9CC43003AFC81 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FA5485662AF9CC6E003AFC81 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		FA5485682AF9CCC5003AFC81 /* BiomarkerCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerCategory.swift; sourceTree = "<group>"; };
+		FA54856A2AF9CCDC003AFC81 /* BiomarkerSubcategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerSubcategory.swift; sourceTree = "<group>"; };
+		FA54856C2AF9CCF0003AFC81 /* Biomarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biomarker.swift; sourceTree = "<group>"; };
+		FA5485702AF9CD63003AFC81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA5485722AF9CD9A003AFC81 /* ServerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSession.swift; sourceTree = "<group>"; };
+		FA54E86E2B2B5A48000C6FD9 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		FA56355D2ACDBEE500E02C2C /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		FA6072582ADE0D9700E6B61A /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		FA60725E2ADE328900E6B61A /* ClinicalRecordsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicalRecordsHelpers.swift; sourceTree = "<group>"; };
+		FA63F5692B24D04700E7D93A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FA63F56B2B25092A00E7D93A /* EmptyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyChatView.swift; sourceTree = "<group>"; };
+		FA680F682ACF3A2300EF88FB /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		FA6E3EFC2BAA5D32003CEEC1 /* SectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
+		FA7D1C922B1514490006F2AC /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		FA7D1C942B1524E70006F2AC /* NotificationAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAlert.swift; sourceTree = "<group>"; };
+		FA7D1C962B15335E0006F2AC /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FA7D1C982B154ED90006F2AC /* SyncingDataAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncingDataAlertView.swift; sourceTree = "<group>"; };
+		FA7E26132ACF4F8F00E6C0B7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA8B8D6C2AE6FFB900FF636F /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		FA8B8D6E2AE702A700FF636F /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
+		FA8B8D702AE8344900FF636F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FA8D8A312AFD7B17008AC421 /* BiomarkerCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerCategoryView.swift; sourceTree = "<group>"; };
+		FA8D8A352AFD7FE4008AC421 /* BiomarkerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerHeaderView.swift; sourceTree = "<group>"; };
+		FA8D8A372AFED816008AC421 /* ChatSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSuggestions.swift; sourceTree = "<group>"; };
+		FA8D8A392AFEE1BD008AC421 /* ChatSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSuggestionsView.swift; sourceTree = "<group>"; };
+		FA981B9D2B93D5EB00B24842 /* SentinelOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentinelOnboardingView.swift; sourceTree = "<group>"; };
+		FA981BA12B950BC000B24842 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		FA981BAB2B97A7BD00B24842 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		FA9951E82B9BCAE000063EFB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FA9CAB842ACD092A00B599D9 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		FA9CAB862ACD097E00B599D9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA9CAB882ACD099A00B599D9 /* NewUserOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserOnboardingView.swift; sourceTree = "<group>"; };
+		FA9CAB8A2ACD09B100B599D9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FA9DC2A22AD87A0A005A4538 /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		FA9DC2A42AD88E17005A4538 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		FA9DC2AC2AD9A258005A4538 /* DevConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevConfig.xcconfig; sourceTree = "<group>"; };
+		FA9DC2AE2AD9A3EE005A4538 /* ProdConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProdConfig.xcconfig; sourceTree = "<group>"; };
+		FA9DC2B02AD9A41A005A4538 /* StagingConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StagingConfig.xcconfig; sourceTree = "<group>"; };
+		FAAA05EC2BCDDBE600AB4D8B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		FAAA9C5A2B20146900674E69 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		FAAA9C5C2B202C3D00674E69 /* AlertViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewContent.swift; sourceTree = "<group>"; };
+		FAAA9C602B20FF2300674E69 /* OverviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewListView.swift; sourceTree = "<group>"; };
+		FAB77D2F2B051C5300DB7802 /* ConversationMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationMessagesView.swift; sourceTree = "<group>"; };
+		FAB8EAAC2B042CD700D7205B /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		FAB8EAAE2B0430E700D7205B /* ConnectHealthDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectHealthDataView.swift; sourceTree = "<group>"; };
+		FAB8EAB02B04530600D7205B /* EnableNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotificationsView.swift; sourceTree = "<group>"; };
+		FAB8EAB22B0454A200D7205B /* SentinelIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentinelIntroView.swift; sourceTree = "<group>"; };
+		FAB938C92B50543D0043E4F1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FAB938CB2B50CCA50043E4F1 /* ConditionsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsSectionView.swift; sourceTree = "<group>"; };
+		FAB938CD2B50CE580043E4F1 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		FAB938CF2B50CE600043E4F1 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		FAB938D12B50D0930043E4F1 /* MedicationsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsSectionView.swift; sourceTree = "<group>"; };
+		FAB938D32B56F2350043E4F1 /* MedicationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailsView.swift; sourceTree = "<group>"; };
+		FAB938D62B56F3070043E4F1 /* ConditionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionDetailsView.swift; sourceTree = "<group>"; };
+		FAB938D92B56F4880043E4F1 /* MedicationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailsViewModel.swift; sourceTree = "<group>"; };
+		FAB938DB2B56F4900043E4F1 /* ConditionDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionDetailsViewModel.swift; sourceTree = "<group>"; };
+		FAB938DD2B5716690043E4F1 /* ConversationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCellView.swift; sourceTree = "<group>"; };
+		FAB938DF2B571DB20043E4F1 /* NavigationLinkIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkIconView.swift; sourceTree = "<group>"; };
+		FABA1B3A2AE31A80005D7869 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		FABFF3572BA0DAA8004DA71C /* LabTestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestCellView.swift; sourceTree = "<group>"; };
+		FABFF3592BA0DAB5004DA71C /* LabTestDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestDetailsView.swift; sourceTree = "<group>"; };
+		FABFF35E2BA10338004DA71C /* OrderLabTestsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLabTestsViewModel.swift; sourceTree = "<group>"; };
+		FABFF3602BA26619004DA71C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FABFF3622BA2A3A7004DA71C /* OrderConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationView.swift; sourceTree = "<group>"; };
+		FABFF3642BA34D3F004DA71C /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		FABFF3662BA34DB7004DA71C /* AddressFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFormView.swift; sourceTree = "<group>"; };
+		FABFF3682BA34DE9004DA71C /* AddressFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFormViewModel.swift; sourceTree = "<group>"; };
+		FABFF36A2BA35408004DA71C /* USStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStates.swift; sourceTree = "<group>"; };
+		FABFF36C2BA36BFC004DA71C /* CollectAdditionalLabOrderInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectAdditionalLabOrderInformationView.swift; sourceTree = "<group>"; };
+		FABFF36E2BA36D1E004DA71C /* LabOrderRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabOrderRequirements.swift; sourceTree = "<group>"; };
+		FABFF3722BA38D72004DA71C /* PhoneNumberFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormView.swift; sourceTree = "<group>"; };
+		FABFF3742BA38DD0004DA71C /* PhoneNumberFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormViewModel.swift; sourceTree = "<group>"; };
+		FABFF3762BA3A72F004DA71C /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		FAD6D1902AFC1D3400B30179 /* BiomarkerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerCellView.swift; sourceTree = "<group>"; };
+		FADE13522B717B4F0034996E /* Immunization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immunization.swift; sourceTree = "<group>"; };
+		FADE13542B717B540034996E /* Allergy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy.swift; sourceTree = "<group>"; };
+		FADE13562B7181730034996E /* ImmunizationsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmunizationsSectionView.swift; sourceTree = "<group>"; };
+		FADE13582B71817F0034996E /* AllergiesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesSectionView.swift; sourceTree = "<group>"; };
+		FADE135A2B71818B0034996E /* ImmunizationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailsView.swift; sourceTree = "<group>"; };
+		FADE135C2B7181990034996E /* AllergyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyDetailsView.swift; sourceTree = "<group>"; };
+		FADE13602B728AC80034996E /* AllergyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyDetailsViewModel.swift; sourceTree = "<group>"; };
+		FADE13622B728B770034996E /* ImmunizationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailsViewModel.swift; sourceTree = "<group>"; };
+		FADE13642B728D890034996E /* BodySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySectionView.swift; sourceTree = "<group>"; };
+		FADE13682B72AFD90034996E /* AllConditionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllConditionsListView.swift; sourceTree = "<group>"; };
+		FADE136A2B72B11E0034996E /* AllImmunizationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllImmunizationsListView.swift; sourceTree = "<group>"; };
+		FADE136C2B72B3400034996E /* AllMedicationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMedicationsListView.swift; sourceTree = "<group>"; };
+		FADE136E2B72B39D0034996E /* AllAllergiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAllergiesListView.swift; sourceTree = "<group>"; };
+		FADE13702B72BAC00034996E /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		FADE13722B72C4F30034996E /* TabsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewModel.swift; sourceTree = "<group>"; };
+		FADE13742B73F08B0034996E /* ConditionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionCellView.swift; sourceTree = "<group>"; };
+		FADE13762B73F3EE0034996E /* MedicationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationCellView.swift; sourceTree = "<group>"; };
+		FADE13782B73F6A30034996E /* ImmunizationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmunizationCellView.swift; sourceTree = "<group>"; };
+		FADE137A2B73F8210034996E /* AllergyCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyCellView.swift; sourceTree = "<group>"; };
+		FADE137C2B755B2C0034996E /* CollectMemberInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectMemberInfoView.swift; sourceTree = "<group>"; };
+		FADE13822B7589580034996E /* HealthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfile.swift; sourceTree = "<group>"; };
+		FADE13882B76D58D0034996E /* VerifyRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRecordsView.swift; sourceTree = "<group>"; };
+		FADE138A2B76ECE50034996E /* VerifyRecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRecordsViewModel.swift; sourceTree = "<group>"; };
+		FADE138C2B77F4DB0034996E /* HealthProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileView.swift; sourceTree = "<group>"; };
+		FADE138E2B77F5920034996E /* HealthProfileFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileFormView.swift; sourceTree = "<group>"; };
+		FADE13902B77F8330034996E /* HealthProfileFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileFormViewModel.swift; sourceTree = "<group>"; };
+		FAE641432B0BE3C700274CF7 /* AppLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchView.swift; sourceTree = "<group>"; };
+		FAE641452B0E824A00274CF7 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		FAE641482B0F9B8D00274CF7 /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		FAE6414A2B0F9C8500274CF7 /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		FAE6414C2B0FA7C700274CF7 /* NotificationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellView.swift; sourceTree = "<group>"; };
+		FAE9C1E02ACA806100AF5FE1 /* Serializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializers.swift; sourceTree = "<group>"; };
+		FAE9C1E22ACA809700AF5FE1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FAE9C1E42ACA80CB00AF5FE1 /* HealthKitHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitHelpers.swift; sourceTree = "<group>"; };
+		FAF8BFEE2B8CF7E900E891B4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		FAFAAE4F2BB605C600D6107B /* LabTestOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrder.swift; sourceTree = "<group>"; };
+		FAFAAE512BB60A4800D6107B /* LabTestOrdersSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrdersSectionView.swift; sourceTree = "<group>"; };
+		FAFAAE532BB6240E00D6107B /* LabTestOrderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrderDetailsView.swift; sourceTree = "<group>"; };
+		FAFAAE552BB7227900D6107B /* LabTestOrderResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrderResultsView.swift; sourceTree = "<group>"; };
+		FAFAAE572BB7232000D6107B /* AllLabTestOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLabTestOrdersView.swift; sourceTree = "<group>"; };
+		FAFAAE5A2BB7256400D6107B /* LabTestOrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrderCellView.swift; sourceTree = "<group>"; };
+		FAFAAE5C2BB7266C00D6107B /* LabTestOrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrdersViewModel.swift; sourceTree = "<group>"; };
+		FAFAAE5E2BB8E86300D6107B /* LabResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabResult.swift; sourceTree = "<group>"; };
+		FAFAAE602BB9101000D6107B /* LabResultCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabResultCellView.swift; sourceTree = "<group>"; };
+		FAFAAE642BBA724D00D6107B /* LabTestOrderResultChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrderResultChartView.swift; sourceTree = "<group>"; };
+		FAFAAE682BBB13F200D6107B /* LabTestOrderResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTestOrderResultsViewModel.swift; sourceTree = "<group>"; };
+		FAFAAE6A2BBB4E0E00D6107B /* BiomarkerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomarkerTextView.swift; sourceTree = "<group>"; };
+		FAFC5DB12B61955E006FE753 /* FileAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAttachmentView.swift; sourceTree = "<group>"; };
+		FAFCD0DA2AC9DBDF00378211 /* Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentinel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFCD0DD2AC9DBDF00378211 /* SentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentinelApp.swift; sourceTree = "<group>"; };
+		FAFCD0DF2AC9DBDF00378211 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		FAFCD0E12AC9DBE000378211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFCD0E42AC9DBE000378211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAFCD0EB2AC9DD9500378211 /* Sentinel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sentinel.entitlements; sourceTree = "<group>"; };
+		FAFCD0EC2AC9F49400378211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAFCD0EF2ACA025900378211 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		FAFCD0F12ACA101400378211 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FAFCD0F52ACA2D9F00378211 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		FAFCD0F92ACA4F0400378211 /* ChatFunctionCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFunctionCallView.swift; sourceTree = "<group>"; };
+		FAFCD0FB2ACA4F1C00378211 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFCD0D72AC9DBDF00378211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8CBDD82C0657CA00479261 /* ModelsBuild in Frameworks */,
+				FA8CBDDA2C0657CA00479261 /* ModelsDSTU2 in Frameworks */,
+				FA9CAB462ACC9FFE00B599D9 /* MarkdownUI in Frameworks */,
+				FA8CBDDE2C0657CA00479261 /* ModelsR4B in Frameworks */,
+				FA54E86D2B28EA82000C6FD9 /* AlertToast in Frameworks */,
+				FA8CBDDC2C0657CA00479261 /* ModelsR4 in Frameworks */,
+				FA8CBDE02C0657CA00479261 /* ModelsR5 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA031CDD2AD2203D001D7432 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCD0F12ACA101400378211 /* ChatView.swift */,
+				FAB77D2F2B051C5300DB7802 /* ConversationMessagesView.swift */,
+				FA031CDE2AD22092001D7432 /* MessageBarView.swift */,
+				FAFCD0F92ACA4F0400378211 /* ChatFunctionCallView.swift */,
+				FAFCD0FB2ACA4F1C00378211 /* ChatMessageView.swift */,
+				FA8D8A392AFEE1BD008AC421 /* ChatSuggestionsView.swift */,
+				FA63F56B2B25092A00E7D93A /* EmptyChatView.swift */,
+				FAFC5DB12B61955E006FE753 /* FileAttachmentView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		FA031CE02AD24217001D7432 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FADE138E2B77F5920034996E /* HealthProfileFormView.swift */,
+				FABFF3662BA34DB7004DA71C /* AddressFormView.swift */,
+				FA7D1C962B15335E0006F2AC /* AlertView.swift */,
+				FA246F322AD108E500C9E9B3 /* LoadingOverlayView.swift */,
+				FA56355D2ACDBEE500E02C2C /* AppButton.swift */,
+				FAAA9C5A2B20146900674E69 /* EmptyStateView.swift */,
+				FAB938DD2B5716690043E4F1 /* ConversationCellView.swift */,
+				FAB938DF2B571DB20043E4F1 /* NavigationLinkIconView.swift */,
+				FA1FC8CF2B8457CB00234180 /* SyncChangesFullScreenCoverView.swift */,
+				FA0AB4BD2BA0C6EB00332C42 /* SectionHeaderView.swift */,
+				FA6E3EFC2BAA5D32003CEEC1 /* SectionFooterView.swift */,
+				FABFF3602BA26619004DA71C /* WebView.swift */,
+				FABFF3722BA38D72004DA71C /* PhoneNumberFormView.swift */,
+				FA0EE9E22BBE1C2A00308692 /* CheckboxView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FA031CE12AD24228001D7432 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CAB862ACD097E00B599D9 /* LoginView.swift */,
+				7EC882A62BF8152700124DB2 /* SignInWithGoogleButtonStyle.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA1FC8CA2B83CC0900234180 /* Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FC8C62B83CBEB00234180 /* ProcedureCellView.swift */,
+				FA1FC8C82B83CC0300234180 /* AllProceduresListView.swift */,
+				FA1FC8CB2B83CC8100234180 /* ProcedureDetailsView.swift */,
+			);
+			path = Procedures;
+			sourceTree = "<group>";
+		};
+		FA445A452B911FF100C0F86C /* NewUserOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CAB882ACD099A00B599D9 /* NewUserOnboardingView.swift */,
+				FAB8EAAE2B0430E700D7205B /* ConnectHealthDataView.swift */,
+				FADE137C2B755B2C0034996E /* CollectMemberInfoView.swift */,
+				FADE13882B76D58D0034996E /* VerifyRecordsView.swift */,
+				FAB8EAB02B04530600D7205B /* EnableNotificationsView.swift */,
+				FA0EE9E42BBE254B00308692 /* WelcomeAndConsentsView.swift */,
+				FA0EE9E62BBEEB6E00308692 /* CollectHealthGoalsView.swift */,
+			);
+			path = NewUserOnboarding;
+			sourceTree = "<group>";
+		};
+		FA445A482B9120D000C0F86C /* DeviceOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA445A462B91201800C0F86C /* DeviceOnboardingView.swift */,
+				FA445A432B91096100C0F86C /* ConnectAppleHealthView.swift */,
+				FA445A4C2B912FF200C0F86C /* EnableDeviceNotificationsView.swift */,
+			);
+			path = DeviceOnboarding;
+			sourceTree = "<group>";
+		};
+		FA445A4E2B914C8900C0F86C /* SentinelOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EAB22B0454A200D7205B /* SentinelIntroView.swift */,
+				FA981B9D2B93D5EB00B24842 /* SentinelOnboardingView.swift */,
+			);
+			path = SentinelOnboarding;
+			sourceTree = "<group>";
+		};
+		FA54855F2AF9C99E003AFC81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FC8C02B80017300234180 /* HealthStat.swift */,
+				FA5485602AF9CB58003AFC81 /* SleepStats.swift */,
+				FA5485622AF9CB6F003AFC81 /* FitnessStats.swift */,
+				FA1FC8BC2B7ECB5900234180 /* BodyStats.swift */,
+				FA5485642AF9CC43003AFC81 /* Message.swift */,
+				FA5485662AF9CC6E003AFC81 /* Conversation.swift */,
+				FA5485682AF9CCC5003AFC81 /* BiomarkerCategory.swift */,
+				FA54856A2AF9CCDC003AFC81 /* BiomarkerSubcategory.swift */,
+				FA54856C2AF9CCF0003AFC81 /* Biomarker.swift */,
+				FA5485702AF9CD63003AFC81 /* User.swift */,
+				FA5485722AF9CD9A003AFC81 /* ServerSession.swift */,
+				FA8D8A372AFED816008AC421 /* ChatSuggestions.swift */,
+				FAE6414A2B0F9C8500274CF7 /* UserNotification.swift */,
+				FA7D1C942B1524E70006F2AC /* NotificationAlert.swift */,
+				FAAA9C5C2B202C3D00674E69 /* AlertViewContent.swift */,
+				FAB938CD2B50CE580043E4F1 /* Condition.swift */,
+				FAB938CF2B50CE600043E4F1 /* Medication.swift */,
+				FADE13522B717B4F0034996E /* Immunization.swift */,
+				FADE13542B717B540034996E /* Allergy.swift */,
+				FADE13822B7589580034996E /* HealthProfile.swift */,
+				FA1FC8C42B83CBB100234180 /* Procedure.swift */,
+				FA0AB4BB2BA0BCB900332C42 /* LabTest.swift */,
+				FAFAAE4F2BB605C600D6107B /* LabTestOrder.swift */,
+				FAFAAE5E2BB8E86300D6107B /* LabResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA60725A2ADE142000E6B61A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DC2AC2AD9A258005A4538 /* DevConfig.xcconfig */,
+				FA9DC2AE2AD9A3EE005A4538 /* ProdConfig.xcconfig */,
+				FA9DC2B02AD9A41A005A4538 /* StagingConfig.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FA6072622ADED9DF00E6B61A /* ClinicalRecords */ = {
+			isa = PBXGroup;
+			children = (
+				FA60725E2ADE328900E6B61A /* ClinicalRecordsHelpers.swift */,
+			);
+			path = ClinicalRecords;
+			sourceTree = "<group>";
+		};
+		FA680F6A2ACF3D6700EF88FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCD0EF2ACA025900378211 /* HealthKitService.swift */,
+				FA7E26132ACF4F8F00E6C0B7 /* APIService.swift */,
+				FABA1B3A2AE31A80005D7869 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA680F6B2ACF3DD100EF88FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9C1E42ACA80CB00AF5FE1 /* HealthKitHelpers.swift */,
+				FA6072622ADED9DF00E6B61A /* ClinicalRecords */,
+				FAE9C1E02ACA806100AF5FE1 /* Serializers.swift */,
+				FAE9C1E22ACA809700AF5FE1 /* Constants.swift */,
+				FA9DC2A22AD87A0A005A4538 /* Dates.swift */,
+				FA9DC2A42AD88E17005A4538 /* Numbers.swift */,
+				FA54E86E2B2B5A48000C6FD9 /* Requests.swift */,
+				FAB938C92B50543D0043E4F1 /* Data.swift */,
+				FA1FC8BE2B7FD75600234180 /* Measurements.swift */,
+				FA981BAB2B97A7BD00B24842 /* Keychain.swift */,
+				FABFF36A2BA35408004DA71C /* USStates.swift */,
+				FABFF36E2BA36D1E004DA71C /* LabOrderRequirements.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAB938D52B56F2440043E4F1 /* Medications */ = {
+			isa = PBXGroup;
+			children = (
+				FADE13762B73F3EE0034996E /* MedicationCellView.swift */,
+				FAB938D32B56F2350043E4F1 /* MedicationDetailsView.swift */,
+				FADE136C2B72B3400034996E /* AllMedicationsListView.swift */,
+			);
+			path = Medications;
+			sourceTree = "<group>";
+		};
+		FAB938D82B56F30B0043E4F1 /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				FAB938D62B56F3070043E4F1 /* ConditionDetailsView.swift */,
+				FADE13682B72AFD90034996E /* AllConditionsListView.swift */,
+				FADE13742B73F08B0034996E /* ConditionCellView.swift */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
+		FABFF3562BA0DA8C004DA71C /* LabTestOrdering */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AB4B92BA0AF8700332C42 /* OrderLabsView.swift */,
+				FABFF3572BA0DAA8004DA71C /* LabTestCellView.swift */,
+				FABFF3592BA0DAB5004DA71C /* LabTestDetailsView.swift */,
+				FABFF3622BA2A3A7004DA71C /* OrderConfirmationView.swift */,
+				FABFF36C2BA36BFC004DA71C /* CollectAdditionalLabOrderInformationView.swift */,
+			);
+			path = LabTestOrdering;
+			sourceTree = "<group>";
+		};
+		FAC04B442B2CC1E8006D78C8 /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B8D6E2AE702A700FF636F /* ConversationsView.swift */,
+			);
+			path = Conversations;
+			sourceTree = "<group>";
+		};
+		FADE135E2B7181A20034996E /* Allergies */ = {
+			isa = PBXGroup;
+			children = (
+				FADE136E2B72B39D0034996E /* AllAllergiesListView.swift */,
+				FADE135C2B7181990034996E /* AllergyDetailsView.swift */,
+				FADE137A2B73F8210034996E /* AllergyCellView.swift */,
+			);
+			path = Allergies;
+			sourceTree = "<group>";
+		};
+		FADE135F2B7181AB0034996E /* Immunizations */ = {
+			isa = PBXGroup;
+			children = (
+				FADE135A2B71818B0034996E /* ImmunizationDetailsView.swift */,
+				FADE136A2B72B11E0034996E /* AllImmunizationsListView.swift */,
+				FADE13782B73F6A30034996E /* ImmunizationCellView.swift */,
+			);
+			path = Immunizations;
+			sourceTree = "<group>";
+		};
+		FAE641472B0E825000274CF7 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				FAE641452B0E824A00274CF7 /* NotificationsView.swift */,
+				FAE6414C2B0FA7C700274CF7 /* NotificationCellView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		FAEB4D382AFD34F40063A03E /* Biomarkers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6D1902AFC1D3400B30179 /* BiomarkerCellView.swift */,
+				FAFAAE6A2BBB4E0E00D6107B /* BiomarkerTextView.swift */,
+				FA8D8A352AFD7FE4008AC421 /* BiomarkerHeaderView.swift */,
+				FA23A2222AFD7495003626AB /* BiomarkerCategoryCardView.swift */,
+				FA8D8A312AFD7B17008AC421 /* BiomarkerCategoryView.swift */,
+				FA0399D22BBCAF3A00167DB9 /* BiomarkerHorizontalChartView.swift */,
+				FA0399D42BBDC94600167DB9 /* ReferenceRangeTextView.swift */,
+			);
+			path = Biomarkers;
+			sourceTree = "<group>";
+		};
+		FAF9351C2AE95957007A3BFF /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				FA6072582ADE0D9700E6B61A /* OverviewView.swift */,
+				FAAA9C602B20FF2300674E69 /* OverviewListView.swift */,
+				FA23A2202AFD5F61003626AB /* HomeSectionView.swift */,
+				FADE13642B728D890034996E /* BodySectionView.swift */,
+				FA1BB4F52B16642300225CCB /* FitnessSectionView.swift */,
+				FA1BB4F72B1665BA00225CCB /* SleepSectionView.swift */,
+				FA1BB4F32B16618F00225CCB /* BiomarkersSectionView.swift */,
+				FAB938CB2B50CCA50043E4F1 /* ConditionsSectionView.swift */,
+				FAB938D12B50D0930043E4F1 /* MedicationsSectionView.swift */,
+				FADE13582B71817F0034996E /* AllergiesSectionView.swift */,
+				FADE13562B7181730034996E /* ImmunizationsSectionView.swift */,
+				FA1FC8C22B83CA9D00234180 /* ProceduresSectionView.swift */,
+				FA7D1C982B154ED90006F2AC /* SyncingDataAlertView.swift */,
+				FA23A21E2AFD48EB003626AB /* HealthStatCardView.swift */,
+				FAFAAE512BB60A4800D6107B /* LabTestOrdersSectionView.swift */,
+				FAB938D82B56F30B0043E4F1 /* Conditions */,
+				FAB938D52B56F2440043E4F1 /* Medications */,
+				FAEB4D382AFD34F40063A03E /* Biomarkers */,
+				FADE135E2B7181A20034996E /* Allergies */,
+				FADE135F2B7181AB0034996E /* Immunizations */,
+				FA1FC8CA2B83CC0900234180 /* Procedures */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		FAF9351D2AE95964007A3BFF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA445A4E2B914C8900C0F86C /* SentinelOnboarding */,
+				FA445A452B911FF100C0F86C /* NewUserOnboarding */,
+				FA445A482B9120D000C0F86C /* DeviceOnboarding */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FAF9351E2AE95972007A3BFF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FA63F5692B24D04700E7D93A /* AccountView.swift */,
+				FAFCD0DF2AC9DBDF00378211 /* AccountListView.swift */,
+				FADE138C2B77F4DB0034996E /* HealthProfileView.swift */,
+				FA2F97E22B7C6638001D2FF2 /* AppleHealthConnectionDetailsView.swift */,
+				FABFF3642BA34D3F004DA71C /* AddressView.swift */,
+				FABFF3762BA3A72F004DA71C /* PhoneNumberView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		FAFAAE592BB7252000D6107B /* LabTestOrders */ = {
+			isa = PBXGroup;
+			children = (
+				FAFAAE532BB6240E00D6107B /* LabTestOrderDetailsView.swift */,
+				FAFAAE5A2BB7256400D6107B /* LabTestOrderCellView.swift */,
+				FAFAAE552BB7227900D6107B /* LabTestOrderResultsView.swift */,
+				FAFAAE572BB7232000D6107B /* AllLabTestOrdersView.swift */,
+				FAFAAE602BB9101000D6107B /* LabResultCellView.swift */,
+				FAFAAE642BBA724D00D6107B /* LabTestOrderResultChartView.swift */,
+			);
+			path = LabTestOrders;
+			sourceTree = "<group>";
+		};
+		FAFCD0D12AC9DBDF00378211 = {
+			isa = PBXGroup;
+			children = (
+				FAFCD0DC2AC9DBDF00378211 /* Sentinel */,
+				FAFCD0DB2AC9DBDF00378211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFCD0DB2AC9DBDF00378211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCD0DA2AC9DBDF00378211 /* Sentinel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFCD0DC2AC9DBDF00378211 /* Sentinel */ = {
+			isa = PBXGroup;
+			children = (
+				FA9951E82B9BCAE000063EFB /* Launch Screen.storyboard */,
+				FAFCD0EC2AC9F49400378211 /* Info.plist */,
+				FAAA05EC2BCDDBE600AB4D8B /* PrivacyInfo.xcprivacy */,
+				FAFCD0EB2AC9DD9500378211 /* Sentinel.entitlements */,
+				FA60725A2ADE142000E6B61A /* Config */,
+				FAFCD0DD2AC9DBDF00378211 /* SentinelApp.swift */,
+				FA981BA12B950BC000B24842 /* AppLogger.swift */,
+				FA9CAB842ACD092A00B599D9 /* AppStateManager.swift */,
+				FA680F682ACF3A2300EF88FB /* SessionManager.swift */,
+				FA680F6A2ACF3D6700EF88FB /* Services */,
+				FAFCD0F72ACA323B00378211 /* Views */,
+				FAFCD0F82ACA327800378211 /* ViewModels */,
+				FA54855F2AF9C99E003AFC81 /* Models */,
+				FA680F6B2ACF3DD100EF88FB /* Utils */,
+				FAFCD0E12AC9DBE000378211 /* Assets.xcassets */,
+				FAFCD0E32AC9DBE000378211 /* Preview Content */,
+			);
+			path = Sentinel;
+			sourceTree = "<group>";
+		};
+		FAFCD0E32AC9DBE000378211 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCD0E42AC9DBE000378211 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAFCD0F72ACA323B00378211 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CAB8A2ACD09B100B599D9 /* RootView.swift */,
+				FAE641432B0BE3C700274CF7 /* AppLaunchView.swift */,
+				FADE13702B72BAC00034996E /* TabsView.swift */,
+				FA031CE12AD24228001D7432 /* Login */,
+				FAF9351D2AE95964007A3BFF /* Onboarding */,
+				FAF9351C2AE95957007A3BFF /* Overview */,
+				FABFF3562BA0DA8C004DA71C /* LabTestOrdering */,
+				FAFAAE592BB7252000D6107B /* LabTestOrders */,
+				FA031CDD2AD2203D001D7432 /* Chat */,
+				FAC04B442B2CC1E8006D78C8 /* Conversations */,
+				FAE641472B0E825000274CF7 /* Notifications */,
+				FAF9351E2AE95972007A3BFF /* Account */,
+				FA031CE02AD24217001D7432 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAFCD0F82ACA327800378211 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B8D702AE8344900FF636F /* HomeViewModel.swift */,
+				FAFCD0F52ACA2D9F00378211 /* ChatViewModel.swift */,
+				FA8B8D6C2AE6FFB900FF636F /* ConversationsViewModel.swift */,
+				FAB8EAAC2B042CD700D7205B /* OnboardingViewModel.swift */,
+				FADE13902B77F8330034996E /* HealthProfileFormViewModel.swift */,
+				FAE641482B0F9B8D00274CF7 /* NotificationsViewModel.swift */,
+				FA7D1C922B1514490006F2AC /* RootViewModel.swift */,
+				FAB938D92B56F4880043E4F1 /* MedicationDetailsViewModel.swift */,
+				FAB938DB2B56F4900043E4F1 /* ConditionDetailsViewModel.swift */,
+				FADE13602B728AC80034996E /* AllergyDetailsViewModel.swift */,
+				FADE13622B728B770034996E /* ImmunizationDetailsViewModel.swift */,
+				FADE13722B72C4F30034996E /* TabsViewModel.swift */,
+				FADE138A2B76ECE50034996E /* VerifyRecordsViewModel.swift */,
+				FA1FC8CD2B83CD1C00234180 /* ProcedureDetailsViewModel.swift */,
+				FAF8BFEE2B8CF7E900E891B4 /* AccountViewModel.swift */,
+				FA445A4A2B91218600C0F86C /* DeviceOnboardingViewModel.swift */,
+				FABFF35E2BA10338004DA71C /* OrderLabTestsViewModel.swift */,
+				FABFF3682BA34DE9004DA71C /* AddressFormViewModel.swift */,
+				FABFF3742BA38DD0004DA71C /* PhoneNumberFormViewModel.swift */,
+				FAFAAE5C2BB7266C00D6107B /* LabTestOrdersViewModel.swift */,
+				FAFAAE682BBB13F200D6107B /* LabTestOrderResultsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFCD0D92AC9DBDF00378211 /* Sentinel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFCD0E82AC9DBE000378211 /* Build configuration list for PBXNativeTarget "Sentinel" */;
+			buildPhases = (
+				FAFCD0D62AC9DBDF00378211 /* Sources */,
+				FAFCD0D72AC9DBDF00378211 /* Frameworks */,
+				FAFCD0D82AC9DBDF00378211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sentinel;
+			packageProductDependencies = (
+				FA9CAB452ACC9FFE00B599D9 /* MarkdownUI */,
+				FA54E86C2B28EA82000C6FD9 /* AlertToast */,
+				FA8CBDD72C0657CA00479261 /* ModelsBuild */,
+				FA8CBDD92C0657CA00479261 /* ModelsDSTU2 */,
+				FA8CBDDB2C0657CA00479261 /* ModelsR4 */,
+				FA8CBDDD2C0657CA00479261 /* ModelsR4B */,
+				FA8CBDDF2C0657CA00479261 /* ModelsR5 */,
+			);
+			productName = Sentinel;
+			productReference = FAFCD0DA2AC9DBDF00378211 /* Sentinel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFCD0D22AC9DBDF00378211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAFCD0D92AC9DBDF00378211 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FAFCD0D52AC9DBDF00378211 /* Build configuration list for PBXProject "Sentinel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFCD0D12AC9DBDF00378211;
+			packageReferences = (
+				FA9CAB442ACC9FFE00B599D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				FA54E86B2B28EA82000C6FD9 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */,
+			);
+			productRefGroup = FAFCD0DB2AC9DBDF00378211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFCD0D92AC9DBDF00378211 /* Sentinel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFCD0D82AC9DBDF00378211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9951E92B9BCAE000063EFB /* Launch Screen.storyboard in Resources */,
+				FAFCD0E52AC9DBE000378211 /* Preview Assets.xcassets in Resources */,
+				FAFCD0E22AC9DBE000378211 /* Assets.xcassets in Resources */,
+				FAAA05ED2BCDDBE600AB4D8B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFCD0D62AC9DBDF00378211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE13692B72AFD90034996E /* AllConditionsListView.swift in Sources */,
+				FADE135B2B71818B0034996E /* ImmunizationDetailsView.swift in Sources */,
+				FAE641492B0F9B8D00274CF7 /* NotificationsViewModel.swift in Sources */,
+				FA0EE9E32BBE1C2A00308692 /* CheckboxView.swift in Sources */,
+				FA7D1C992B154ED90006F2AC /* SyncingDataAlertView.swift in Sources */,
+				FA7D1C952B1524E70006F2AC /* NotificationAlert.swift in Sources */,
+				FAFCD0FC2ACA4F1C00378211 /* ChatMessageView.swift in Sources */,
+				FAAA9C5B2B20146900674E69 /* EmptyStateView.swift in Sources */,
+				FAFCD0F62ACA2D9F00378211 /* ChatViewModel.swift in Sources */,
+				FAFC5DB22B61955E006FE753 /* FileAttachmentView.swift in Sources */,
+				FAFCD0E02AC9DBDF00378211 /* AccountListView.swift in Sources */,
+				FAB938D02B50CE600043E4F1 /* Medication.swift in Sources */,
+				FA5485652AF9CC43003AFC81 /* Message.swift in Sources */,
+				FADE13612B728AC80034996E /* AllergyDetailsViewModel.swift in Sources */,
+				FA680F692ACF3A2300EF88FB /* SessionManager.swift in Sources */,
+				FA63F56C2B25092A00E7D93A /* EmptyChatView.swift in Sources */,
+				FA0EE9E52BBE254B00308692 /* WelcomeAndConsentsView.swift in Sources */,
+				FAFAAE582BB7232000D6107B /* AllLabTestOrdersView.swift in Sources */,
+				FA9CAB852ACD092A00B599D9 /* AppStateManager.swift in Sources */,
+				FAB938CC2B50CCA50043E4F1 /* ConditionsSectionView.swift in Sources */,
+				FA1FC8CE2B83CD1C00234180 /* ProcedureDetailsViewModel.swift in Sources */,
+				FA23A21F2AFD48EB003626AB /* HealthStatCardView.swift in Sources */,
+				FAFCD0F02ACA025900378211 /* HealthKitService.swift in Sources */,
+				FAE6414B2B0F9C8500274CF7 /* UserNotification.swift in Sources */,
+				FAFAAE5F2BB8E86300D6107B /* LabResult.swift in Sources */,
+				FA0399D32BBCAF3A00167DB9 /* BiomarkerHorizontalChartView.swift in Sources */,
+				FA63F56A2B24D04700E7D93A /* AccountView.swift in Sources */,
+				FABFF3692BA34DE9004DA71C /* AddressFormViewModel.swift in Sources */,
+				FAFAAE652BBA724D00D6107B /* LabTestOrderResultChartView.swift in Sources */,
+				FADE136F2B72B39D0034996E /* AllAllergiesListView.swift in Sources */,
+				FABFF3672BA34DB7004DA71C /* AddressFormView.swift in Sources */,
+				FAB938DE2B5716690043E4F1 /* ConversationCellView.swift in Sources */,
+				FA246F332AD108E500C9E9B3 /* LoadingOverlayView.swift in Sources */,
+				FA5485732AF9CD9A003AFC81 /* ServerSession.swift in Sources */,
+				FAFAAE612BB9101000D6107B /* LabResultCellView.swift in Sources */,
+				FA445A442B91096100C0F86C /* ConnectAppleHealthView.swift in Sources */,
+				FA8D8A322AFD7B17008AC421 /* BiomarkerCategoryView.swift in Sources */,
+				FA56355E2ACDBEE500E02C2C /* AppButton.swift in Sources */,
+				FA1FC8C32B83CA9D00234180 /* ProceduresSectionView.swift in Sources */,
+				FA0AB4BA2BA0AF8700332C42 /* OrderLabsView.swift in Sources */,
+				FAFCD0F22ACA101400378211 /* ChatView.swift in Sources */,
+				FA8B8D6D2AE6FFB900FF636F /* ConversationsViewModel.swift in Sources */,
+				FAE9C1E32ACA809700AF5FE1 /* Constants.swift in Sources */,
+				FA0EE9E72BBEEB6E00308692 /* CollectHealthGoalsView.swift in Sources */,
+				FAE9C1E12ACA806100AF5FE1 /* Serializers.swift in Sources */,
+				FA1FC8D02B8457CB00234180 /* SyncChangesFullScreenCoverView.swift in Sources */,
+				FA23A2232AFD7495003626AB /* BiomarkerCategoryCardView.swift in Sources */,
+				FA981BA22B950BC000B24842 /* AppLogger.swift in Sources */,
+				FA5485632AF9CB6F003AFC81 /* FitnessStats.swift in Sources */,
+				FABFF3582BA0DAA8004DA71C /* LabTestCellView.swift in Sources */,
+				FABFF36B2BA35408004DA71C /* USStates.swift in Sources */,
+				FA23A2212AFD5F61003626AB /* HomeSectionView.swift in Sources */,
+				FA5485712AF9CD63003AFC81 /* User.swift in Sources */,
+				FA8B8D712AE8344900FF636F /* HomeViewModel.swift in Sources */,
+				FA1FC8BF2B7FD75600234180 /* Measurements.swift in Sources */,
+				FA1FC8BD2B7ECB5900234180 /* BodyStats.swift in Sources */,
+				FA6072592ADE0D9700E6B61A /* OverviewView.swift in Sources */,
+				FADE13652B728D890034996E /* BodySectionView.swift in Sources */,
+				FA1FC8CC2B83CC8100234180 /* ProcedureDetailsView.swift in Sources */,
+				FAE9C1E52ACA80CB00AF5FE1 /* HealthKitHelpers.swift in Sources */,
+				FAB8EAAF2B0430E700D7205B /* ConnectHealthDataView.swift in Sources */,
+				FAAA9C5D2B202C3D00674E69 /* AlertViewContent.swift in Sources */,
+				FA5485672AF9CC6E003AFC81 /* Conversation.swift in Sources */,
+				FADE136D2B72B3400034996E /* AllMedicationsListView.swift in Sources */,
+				FA8B8D6F2AE702A700FF636F /* ConversationsView.swift in Sources */,
+				FAF8BFEF2B8CF7E900E891B4 /* AccountViewModel.swift in Sources */,
+				FADE13752B73F08B0034996E /* ConditionCellView.swift in Sources */,
+				FAB938E02B571DB20043E4F1 /* NavigationLinkIconView.swift in Sources */,
+				FADE13912B77F8330034996E /* HealthProfileFormViewModel.swift in Sources */,
+				FAB938DA2B56F4880043E4F1 /* MedicationDetailsViewModel.swift in Sources */,
+				FADE13532B717B4F0034996E /* Immunization.swift in Sources */,
+				FADE138D2B77F4DB0034996E /* HealthProfileView.swift in Sources */,
+				FA0399D52BBDC94600167DB9 /* ReferenceRangeTextView.swift in Sources */,
+				FADE13632B728B770034996E /* ImmunizationDetailsViewModel.swift in Sources */,
+				FA1BB4F62B16642300225CCB /* FitnessSectionView.swift in Sources */,
+				FAAA9C612B20FF2300674E69 /* OverviewListView.swift in Sources */,
+				FAFAAE5D2BB7266C00D6107B /* LabTestOrdersViewModel.swift in Sources */,
+				FA1FC8C12B80017300234180 /* HealthStat.swift in Sources */,
+				FA445A4D2B912FF200C0F86C /* EnableDeviceNotificationsView.swift in Sources */,
+				FADE13712B72BAC00034996E /* TabsView.swift in Sources */,
+				FAB938D42B56F2350043E4F1 /* MedicationDetailsView.swift in Sources */,
+				FAFAAE692BBB13F200D6107B /* LabTestOrderResultsViewModel.swift in Sources */,
+				FAB8EAAD2B042CD700D7205B /* OnboardingViewModel.swift in Sources */,
+				FADE13772B73F3EE0034996E /* MedicationCellView.swift in Sources */,
+				FAB938D22B50D0930043E4F1 /* MedicationsSectionView.swift in Sources */,
+				FA7E26142ACF4F8F00E6C0B7 /* APIService.swift in Sources */,
+				FABFF35A2BA0DAB5004DA71C /* LabTestDetailsView.swift in Sources */,
+				FA5485612AF9CB58003AFC81 /* SleepStats.swift in Sources */,
+				FAFCD0DE2AC9DBDF00378211 /* SentinelApp.swift in Sources */,
+				FA7D1C972B15335E0006F2AC /* AlertView.swift in Sources */,
+				FABFF36F2BA36D1E004DA71C /* LabOrderRequirements.swift in Sources */,
+				FABFF35F2BA10338004DA71C /* OrderLabTestsViewModel.swift in Sources */,
+				FADE13732B72C4F30034996E /* TabsViewModel.swift in Sources */,
+				FA445A4B2B91218600C0F86C /* DeviceOnboardingViewModel.swift in Sources */,
+				FAFAAE5B2BB7256400D6107B /* LabTestOrderCellView.swift in Sources */,
+				FAFAAE562BB7227900D6107B /* LabTestOrderResultsView.swift in Sources */,
+				FA8D8A3A2AFEE1BD008AC421 /* ChatSuggestionsView.swift in Sources */,
+				FA5485692AF9CCC5003AFC81 /* BiomarkerCategory.swift in Sources */,
+				FAE641462B0E824A00274CF7 /* NotificationsView.swift in Sources */,
+				FABFF3612BA26619004DA71C /* WebView.swift in Sources */,
+				FADE13592B71817F0034996E /* AllergiesSectionView.swift in Sources */,
+				FADE13832B7589580034996E /* HealthProfile.swift in Sources */,
+				FAFAAE542BB6240E00D6107B /* LabTestOrderDetailsView.swift in Sources */,
+				FA031CDF2AD22092001D7432 /* MessageBarView.swift in Sources */,
+				FADE137B2B73F8210034996E /* AllergyCellView.swift in Sources */,
+				FAE6414D2B0FA7C700274CF7 /* NotificationCellView.swift in Sources */,
+				FABFF36D2BA36BFC004DA71C /* CollectAdditionalLabOrderInformationView.swift in Sources */,
+				FA1BB4F82B1665BA00225CCB /* SleepSectionView.swift in Sources */,
+				FAE641442B0BE3C700274CF7 /* AppLaunchView.swift in Sources */,
+				FA0AB4BC2BA0BCB900332C42 /* LabTest.swift in Sources */,
+				FA9DC2A32AD87A0A005A4538 /* Dates.swift in Sources */,
+				FADE138B2B76ECE50034996E /* VerifyRecordsViewModel.swift in Sources */,
+				FAFAAE522BB60A4800D6107B /* LabTestOrdersSectionView.swift in Sources */,
+				FADE13792B73F6A30034996E /* ImmunizationCellView.swift in Sources */,
+				FA9CAB872ACD097E00B599D9 /* LoginView.swift in Sources */,
+				FA1BB4F42B16618F00225CCB /* BiomarkersSectionView.swift in Sources */,
+				FADE13552B717B540034996E /* Allergy.swift in Sources */,
+				FAFAAE502BB605C600D6107B /* LabTestOrder.swift in Sources */,
+				FAB8EAB32B0454A200D7205B /* SentinelIntroView.swift in Sources */,
+				FABFF3772BA3A72F004DA71C /* PhoneNumberView.swift in Sources */,
+				FA6E3EFD2BAA5D32003CEEC1 /* SectionFooterView.swift in Sources */,
+				FABFF3652BA34D3F004DA71C /* AddressView.swift in Sources */,
+				FAFCD0FA2ACA4F0400378211 /* ChatFunctionCallView.swift in Sources */,
+				FAD6D1912AFC1D3400B30179 /* BiomarkerCellView.swift in Sources */,
+				FA1FC8C52B83CBB100234180 /* Procedure.swift in Sources */,
+				FA445A472B91201800C0F86C /* DeviceOnboardingView.swift in Sources */,
+				FA1FC8C92B83CC0300234180 /* AllProceduresListView.swift in Sources */,
+				FA54856D2AF9CCF0003AFC81 /* Biomarker.swift in Sources */,
+				FA8D8A362AFD7FE4008AC421 /* BiomarkerHeaderView.swift in Sources */,
+				7EC882A72BF8152700124DB2 /* SignInWithGoogleButtonStyle.swift in Sources */,
+				FA54856B2AF9CCDC003AFC81 /* BiomarkerSubcategory.swift in Sources */,
+				FA7D1C932B1514490006F2AC /* RootViewModel.swift in Sources */,
+				FA9DC2A52AD88E17005A4538 /* Numbers.swift in Sources */,
+				FABFF3732BA38D72004DA71C /* PhoneNumberFormView.swift in Sources */,
+				FA8D8A382AFED816008AC421 /* ChatSuggestions.swift in Sources */,
+				FAB938CA2B50543D0043E4F1 /* Data.swift in Sources */,
+				FADE136B2B72B11E0034996E /* AllImmunizationsListView.swift in Sources */,
+				FA54E86F2B2B5A48000C6FD9 /* Requests.swift in Sources */,
+				FADE13892B76D58D0034996E /* VerifyRecordsView.swift in Sources */,
+				FA9CAB892ACD099A00B599D9 /* NewUserOnboardingView.swift in Sources */,
+				FAB938D72B56F3070043E4F1 /* ConditionDetailsView.swift in Sources */,
+				FADE138F2B77F5920034996E /* HealthProfileFormView.swift in Sources */,
+				FADE135D2B7181990034996E /* AllergyDetailsView.swift in Sources */,
+				FA60725F2ADE328A00E6B61A /* ClinicalRecordsHelpers.swift in Sources */,
+				FA9CAB8B2ACD09B100B599D9 /* RootView.swift in Sources */,
+				FA981BAC2B97A7BD00B24842 /* Keychain.swift in Sources */,
+				FAB8EAB12B04530600D7205B /* EnableNotificationsView.swift in Sources */,
+				FA0AB4BE2BA0C6EB00332C42 /* SectionHeaderView.swift in Sources */,
+				FAB938CE2B50CE580043E4F1 /* Condition.swift in Sources */,
+				FABFF3752BA38DD0004DA71C /* PhoneNumberFormViewModel.swift in Sources */,
+				FADE13572B7181730034996E /* ImmunizationsSectionView.swift in Sources */,
+				FA2F97E32B7C6638001D2FF2 /* AppleHealthConnectionDetailsView.swift in Sources */,
+				FA1FC8C72B83CBEB00234180 /* ProcedureCellView.swift in Sources */,
+				FAB938DC2B56F4900043E4F1 /* ConditionDetailsViewModel.swift in Sources */,
+				FADE137D2B755B2C0034996E /* CollectMemberInfoView.swift in Sources */,
+				FABA1B3B2AE31A80005D7869 /* NotificationService.swift in Sources */,
+				FAB77D302B051C5300DB7802 /* ConversationMessagesView.swift in Sources */,
+				FABFF3632BA2A3A7004DA71C /* OrderConfirmationView.swift in Sources */,
+				FAFAAE6B2BBB4E0E00D6107B /* BiomarkerTextView.swift in Sources */,
+				FA981B9E2B93D5EB00B24842 /* SentinelOnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA9DC2A62AD99EA5005A4538 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9DC2AE2AD9A3EE005A4538 /* ProdConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_SUFFIX = Prod;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		FA9DC2A72AD99EA5005A4538 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sentinel/Sentinel.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "Sentinel/Preview\\ Content";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sentinel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sentinel;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to allow you to take a picture and use the image in chat.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We need access to your health records in order to provide you with personalized insights.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We use your health data to provide personalized insights and recommendations.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We update your health data in order to sync it to your account.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use access to your photos to allow you to use them in chat.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sentinelhealth.sentinel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Production;
+		};
+		FA9DC2A82AD99EB5005A4538 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9DC2AC2AD9A258005A4538 /* DevConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_SUFFIX = Dev;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEV $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Development;
+		};
+		FA9DC2A92AD99EB5005A4538 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon - Dev";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sentinel/Sentinel.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "Sentinel/Preview\\ Content";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sentinel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sentinel Dev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to allow you to take a picture and use the image in chat.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We need access to your health records in order to provide you with personalized insights.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We use your health data to provide personalized insights and recommendations.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We update your health data in order to sync it to your account.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use access to your photos to allow you to use them in chat.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.sentinelhealth.sentinel-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Development;
+		};
+		FA9DC2AA2AD99EBC005A4538 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9DC2B02AD9A41A005A4538 /* StagingConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_SUFFIX = Staging;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		FA9DC2AB2AD99EBC005A4538 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon - Staging";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sentinel/Sentinel.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "Sentinel/Preview\\ Content";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sentinel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sentinel Staging";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to allow you to take a picture and use the image in chat.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We need access to your health records in order to provide you with personalized insights.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We use your health data to provide personalized insights and recommendations.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We update your health data in order to sync it to your account.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use access to your photos to allow you to use them in chat.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.sentinelhealth.sentinel-staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Staging;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFCD0D52AC9DBDF00378211 /* Build configuration list for PBXProject "Sentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9DC2A82AD99EB5005A4538 /* Development */,
+				FA9DC2A62AD99EA5005A4538 /* Production */,
+				FA9DC2AA2AD99EBC005A4538 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+		FAFCD0E82AC9DBE000378211 /* Build configuration list for PBXNativeTarget "Sentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9DC2A92AD99EB5005A4538 /* Development */,
+				FA9DC2A72AD99EA5005A4538 /* Production */,
+				FA9DC2AB2AD99EBC005A4538 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA54E86B2B28EA82000C6FD9 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/FHIRModels.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		FA9CAB442ACC9FFE00B599D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA54E86C2B28EA82000C6FD9 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA54E86B2B28EA82000C6FD9 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		FA8CBDD72C0657CA00479261 /* ModelsBuild */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsBuild;
+		};
+		FA8CBDD92C0657CA00479261 /* ModelsDSTU2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsDSTU2;
+		};
+		FA8CBDDB2C0657CA00479261 /* ModelsR4 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR4;
+		};
+		FA8CBDDD2C0657CA00479261 /* ModelsR4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR4B;
+		};
+		FA8CBDDF2C0657CA00479261 /* ModelsR5 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA78A2052C06559C00D88DA4 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR5;
+		};
+		FA9CAB452ACC9FFE00B599D9 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9CAB442ACC9FFE00B599D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAFCD0D22AC9DBDF00378211 /* Project object */;
+}
